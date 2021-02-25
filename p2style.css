@@ -1,11 +1,21 @@
+@font-face{ 
+	font-family: 'Raleway';
+	src: url(font/Raleway-Regular.ttf) format('truetype'),
+	     url(font/Raleway-Bold.ttf) format('truetype'),
+         url(font/Raleway-ExtraBold.ttf) format('truetype')
+}
+*{
+    font-family: Raleway;
+}
 .filtres a{
-    border: 2px rgba(0, 0, 0, 0.466) solid;
+    border: 2px rgba(0, 0, 0, 0.219) solid;
     border-left: transparent;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     padding: 0.9em 1.5em ;
     text-decoration: none;
     font-weight: bold;
+    color: black;
 }
 .filtres i{
   color: #0065FC;
