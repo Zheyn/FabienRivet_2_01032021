@@ -1,0 +1,22 @@
+.filtres a{
+    border: 2px rgba(0, 0, 0, 0.466) solid;
+    border-left: transparent;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 0.9em 1.5em ;
+    text-decoration: none;
+    font-weight: bold;
+}
+.filtres i{
+  color: #0065FC;
+  background-color: #DEEBFF;
+  padding: 18px;
+  border-radius: 50%;
+  margin-right: 0.8em;
+  margin-left: -3.5em;
+  }
+
+.listfilter{
+    margin-left: 5em;
+}
+ 
