@@ -1,32 +1,60 @@
-@font-face{ 
-	font-family: 'Raleway';
-	src: url(font/Raleway-Regular.ttf) format('truetype'),
-	     url(font/Raleway-Bold.ttf) format('truetype'),
-         url(font/Raleway-ExtraBold.ttf) format('truetype')
+@font-face {
+  font-family: "Raleway";
+  src: url(font/Raleway-Regular.ttf) format("truetype"),
+    url(font/Raleway-Bold.ttf) format("truetype"),
+    url(font/Raleway-ExtraBold.ttf) format("truetype"),
+    url(font/Raleway-Black.ttf) format("truetype");
 }
-*{
-    font-family: Raleway;
+* {
+  font-family: Raleway;
 }
-.filtres a{
-    border: 2px rgba(0, 0, 0, 0.219) solid;
-    border-left: transparent;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    padding: 0.9em 1.5em ;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+.filtres a {
+  border: 2px rgba(0, 0, 0, 0.219) solid;
+  border-left: transparent;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 0.8em 1.5em;
+  margin-left: 3em;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
 }
 .filtres i{
-  color: #0065FC;
-  background-color: #DEEBFF;
-  padding: 18px;
+  color: #0065fc;
+  background-color: #deebff;
+  margin-right: 1em;
   border-radius: 50%;
-  margin-right: 0.8em;
-  margin-left: -3.5em;
-  }
-
-.listfilter{
-    margin-left: 5em;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.9em;
+  margin-left: -50px;
 }
- 
+
+
+.filtres{
+    display: flex;
+    flex-direction: row;
+}
+#info{
+    font-weight: normal;
+    margin-top: 20px;
+}
+#info i{
+    margin-right: 15px;
+    color: #0065fc;
+    border: 1px rgba(0, 0, 0, 0.219) solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    line-height: 20px;
+}
+/*FIN HEADER*/
+/*DEBUT SECTION1*/
+
+#section1 img{
+    width: 200px;
+}
