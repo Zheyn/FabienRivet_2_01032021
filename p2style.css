@@ -8,6 +8,8 @@
 * {
   font-family: Raleway;
 }
+/*DEBUT HEADER*/
+
 .filtres a {
   border: 2px rgba(0, 0, 0, 0.219) solid;
   border-left: transparent;
@@ -55,6 +57,3 @@
 /*FIN HEADER*/
 /*DEBUT SECTION1*/
 
-#section1 img{
-    width: 200px;
-}
