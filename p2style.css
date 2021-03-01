@@ -24,6 +24,7 @@ header img{
 .logonav{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 nav ul{
   display: flex;
@@ -49,26 +50,34 @@ header p{
   margin-bottom: 50px;
 }
 #rechercher{
-  margin-left: 25px;
+  margin-left: 45px;
   
 }
 #isearch{
-  border: 1px solid black;
-  height: 43px;
-  width: 40px;
-  line-height: 43px;
+  height: 52px;
+  width: 50px;
+  line-height: 50px;
   text-align: center;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.068);
 }
 #searchmars{
-  border: 1px solid black;
-  margin: 0px -5px;
-  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.014);
+  margin: 0px -4px;
+  padding: 16px 0;
   padding-left: 15px;
   padding-right: 30px;
+  font-weight: bold;
+
 }
 #search{
-  border: 1px solid black;
-  padding: 12px 10px;
+  padding: 16px 15px;
+  font-weight: bold;
+  background-color: #0065fc;
+  color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .filtres a {
@@ -77,13 +86,24 @@ header p{
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   padding: 0.8em 1.5em;
-  margin-left: 5em;
+  margin-left: 50px;
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
+.filtres a:hover{
+  background-color: #0065fc4f;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+.filtres i:hover{
+  background-color: #fff;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
 .filtres p{
     margin-left: 45px;
+    font-weight: bold;
 }
 .filtres i {
   color: #0065fc;
@@ -105,8 +125,7 @@ header p{
 }
 #info {
   font-weight: normal;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 #info i {
   margin-right: 15px;
