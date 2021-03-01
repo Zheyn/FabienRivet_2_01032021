@@ -1,16 +1,75 @@
 @font-face {
   font-family: "Raleway";
-  src: url(font/Raleway-Regular.ttf) format("truetype"),
-    url(font/Raleway-Bold.ttf) format("truetype"),
-    url(font/Raleway-ExtraBold.ttf) format("truetype"),
-    url(font/Raleway-Black.ttf) format("truetype");
+  font-weight: normal;
+  src: url(font/Raleway-Regular.ttf) format("truetype");
+    
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: bold;
+  src: url(font/Raleway-Bold.ttf) format("truetype");
 }
 body {
   font-family: Raleway;
-  width: 80%;
+  width: 95%;
   margin: auto;
+  padding-top: 2%;
 }
 /*DEBUT HEADER*/
+
+header img{
+  width: auto;
+  height: 4em;
+}
+.logonav{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  padding-left: 5em;
+  list-style: none;
+}
+.logonav a{
+  text-decoration: none;
+}
+nav ul a:nth-child(odd){
+  color: #0065fc;
+}
+nav ul a:nth-child(2){
+  color: black;
+}
+header h1{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+header p{
+  margin-bottom: 50px;
+}
+#rechercher{
+  margin-left: 25px;
+  
+}
+#isearch{
+  border: 1px solid black;
+  height: 43px;
+  width: 40px;
+  line-height: 43px;
+  text-align: center;
+}
+#searchmars{
+  border: 1px solid black;
+  margin: 0px -5px;
+  padding: 12px 0;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+#search{
+  border: 1px solid black;
+  padding: 12px 10px;
+}
 
 .filtres a {
   border: 2px rgba(0, 0, 0, 0.219) solid;
@@ -20,7 +79,7 @@ body {
   padding: 0.8em 1.5em;
   margin-left: 5em;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: bold;
   color: black;
 }
 .filtres p{
@@ -42,6 +101,7 @@ body {
 .filtres {
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 #info {
   font-weight: normal;
@@ -68,6 +128,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   width: 70%;
   height: 600px;
   border: 1px solid black;

@@ -9,6 +9,7 @@
 
   <body>
     <header>
+      <div class="logonav">
       <img src="images/logo/reservia@3x.png" alt="Logo Reservia" />
       <nav>
         <ul>
@@ -17,12 +18,13 @@
           <li><a href="#">S'inscrire</a></li>
         </ul>
       </nav>
+      </div>
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
-      <div class="rechercher">
-          <i class="fas fa-map-marker-alt"></i>
-          <p>Marseille, France</p>
-          <p>Rechercher</p>
+      <div id="rechercher">
+          <i id="isearch" class="fas fa-map-marker-alt"></i>
+          <span id="searchmars">Marseille, France</span>
+          <span id="search">Rechercher</span>
       </div>
       <div class="filtres">
           <p>Filtres</p>
@@ -49,7 +51,18 @@
            </div>
           </div>
 
-         <div class="blocsection1"><a href="#"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port"></a></div>
+         <div class="blocsection1">
+           <div class="contenubloc1">
+           <a href="#"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+            <p>Auberge de la Cannebière</p>
+            <p>Nuit à partir de <span class="euro">25€</span></p>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i></a>
+           </div>
+          </div>
 
          <div class="blocsection1"><a href="#"><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes"></div>
 
