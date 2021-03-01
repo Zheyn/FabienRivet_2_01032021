@@ -91,16 +91,13 @@ header p{
   text-decoration: none;
   font-weight: bold;
   color: black;
+  transition: all 1s ease-out;
 }
-.filtres a:hover{
-  background-color: #0065fc4f;
-  transition-property: background-color;
-  transition-duration: 1s;
+.filtres a:hover, a:focus{
+  background-color: #deebff
 }
 .filtres i:hover{
   background-color: #fff;
-  transition-property: background-color;
-  transition-duration: 1s;
 }
 .filtres p{
     margin-left: 45px;
@@ -117,6 +114,7 @@ header p{
   text-align: center;
   padding: 0.9em;
   margin-left: -50px;
+  transition: all 1s ease-out;
 }
 
 .filtres {
@@ -149,7 +147,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 55%;
+  width: 58%;
   height: 600px;
   border: 1px solid black;
   background-color: #F2F2F2;
@@ -173,20 +171,49 @@ img {
   width: 200px;
 }
 .blocsection1 {
-  width: 220px;
+  background-color: #fff;
+  width: 240px;
   height: 200px;
   border: 1px solid black;
-  paddin: 10px 10px 10px 10px;
-  margin: 20px 20px;
+  margin: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
 }
 .contenubloc1{
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 10px 30px;
+  padding: 5px 5px;
+  
 }
 .contenubloc1 img{
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  width: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 230px;
+  
+}
+.description{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  borde: 1px solid black;
+  line-height: 3px;
+  padding: 20px 5px 10px 5px;
+  background: #fff;
+  text-align: start;
+  width: 220px;
+}
+.description .euro{
+  font-weight: bold;
+}
+.description a{
+  text-decoration: none;
+  color: black;
+  line-height: 5px;
+}
+.description i{
+  color: #0065fc;
+  font-size: 15px;
+  line-height: 5px;
 }
