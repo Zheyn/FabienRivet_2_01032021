@@ -11,10 +11,11 @@
 }
 body {
   font-family: Raleway;
-  width: 95%;
+  width: 80%;
   margin: auto;
   padding-top: 2%;
 }
+
 /*DEBUT HEADER*/
 
 header img{
@@ -120,7 +121,7 @@ header p{
 
 .filtres {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 50px;
 }
 #info {
@@ -146,12 +147,15 @@ section {
 #section1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 55%;
   height: 600px;
   border: 1px solid black;
-  margin-left: 4%;
+  background-color: #F2F2F2;
+  border-radius: 35px;
+  margin-left: 45px;
+  padding: 40px 0;
 }
 #section2 {
   display: flex;
@@ -160,6 +164,8 @@ section {
   justify-content: center;
   width: 20%;
   height: 600px;
+  margin-left: 40px;
+  padding: 40px 0;
   border: 1px solid black;
   
 }
@@ -167,9 +173,20 @@ img {
   width: 200px;
 }
 .blocsection1 {
-  width: 200px;
-  height: 150px;
+  width: 220px;
+  height: 200px;
   border: 1px solid black;
-  padding: 20px;
-  margin: 20px;
+  paddin: 10px 10px 10px 10px;
+  margin: 20px 20px;
+}
+.contenubloc1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 30px;
+}
+.contenubloc1 img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 200px;
 }
