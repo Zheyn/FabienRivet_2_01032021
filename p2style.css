@@ -16,7 +16,7 @@ body {
   padding-top: 2%;
 }
 
-/*DEBUT HEADER*/
+/**********DEBUT HEADER**********/
 
 header img{
   width: auto;
@@ -114,13 +114,14 @@ header p{
   text-align: center;
   padding: 0.9em;
   margin-left: -50px;
-  transition: all 1s ease-out;
+  transition: all 1s ease-in;
 }
 
 .filtres {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
+  min-width: 1250px;
 }
 #info {
   font-weight: normal;
@@ -137,8 +138,9 @@ header p{
   padding: 5px;
   line-height: 20px;
 }
-/*FIN HEADER*/
-/*DEBUT SECTION1*/
+/**********FIN HEADER***********/
+
+/**********DEBUT SECTION1**********/
 section {
   display: flex;
 }
@@ -148,25 +150,22 @@ section {
   justify-content: center;
   align-items: center;
   width: 58%;
+  min-width: 900px;
   height: 600px;
-  border: 1px solid black;
+  borde: 1px solid black;
   background-color: #F2F2F2;
   border-radius: 35px;
-  margin-left: 45px;
-  padding: 40px 0;
+  margin: 50px 45px 0 0;
+  padding: 60px 0;
+  position: relative;
 }
-#section2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
-  height: 600px;
-  margin-left: 40px;
-  padding: 40px 0;
-  border: 1px solid black;
-  
+#section1 h1{
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  margin-left: 50px;
 }
+
 img {
   width: 200px;
 }
@@ -174,10 +173,10 @@ img {
   background-color: #fff;
   width: 240px;
   height: 200px;
-  border: 1px solid black;
+  borde: 1px solid black;
   margin: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
   position: relative;
 }
 .contenubloc1{
@@ -196,10 +195,9 @@ img {
 .description{
   display: flex;
   position: absolute;
-  bottom: 0;
-  borde: 1px solid black;
+  bottom: 15px;
   line-height: 3px;
-  padding: 20px 5px 10px 5px;
+  padding: 20px 5px 0px 5px;
   background: #fff;
   text-align: start;
   width: 220px;
@@ -216,4 +214,76 @@ img {
   color: #0065fc;
   font-size: 15px;
   line-height: 5px;
+}
+#afficherplus{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 55px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+/**********FIN SECTION1**********/
+
+/**********DEBUT SECTION2**********/
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  margin: 50px 0 0 45px;
+  padding: 40px 0;
+  border: 1px solid black;
+  position: relative;
+  
+}
+#section2 h1{
+  position: absolute;
+  left: 0px;
+  top: 0;
+  margin-left: 50px;
+}
+#section2 h1 + i{
+  position: absolute;
+  right: 0px;
+  top: 0
+}
+.blocsection2 {
+  background-color: #fff;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  position: relative;
+}
+.contenubloc2{
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  padding: 5px 5px;
+}
+.contenubloc2 img{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 180px;
+  
+}
+.description2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  padding: 5px 5px 0px 0px;
+  background: #fff;
+  width: 150px;
+  height: 140px;
 }
