@@ -152,10 +152,9 @@ section {
   width: 58%;
   min-width: 900px;
   height: 600px;
-  borde: 1px solid black;
   background-color: #F2F2F2;
   border-radius: 35px;
-  margin: 50px 45px 0 0;
+  margin: 50px 45px 0 50px;
   padding: 60px 0;
   position: relative;
 }
@@ -182,9 +181,7 @@ img {
 .contenubloc1{
   display: flex;
   justify-content: center;
-  text-align: center;
   padding: 5px 5px;
-  
 }
 .contenubloc1 img{
   border-top-left-radius: 15px;
@@ -234,45 +231,47 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  background-color: #F2F2F2;
+  border-radius: 35px;
+  width: 30%;
   height: 600px;
   margin: 50px 0 0 45px;
-  padding: 40px 0;
-  border: 1px solid black;
+  padding: 60px 0;
   position: relative;
   
 }
 #section2 h1{
   position: absolute;
   left: 0px;
-  top: 0;
+  top: 20px;
   margin-left: 50px;
 }
 #section2 h1 + i{
   position: absolute;
-  right: 0px;
-  top: 0
+  right: 45px;
+  top: 45px;
+  font-size: 25px
 }
 .blocsection2 {
   background-color: #fff;
-  width: 400px;
-  height: 200px;
-  border: 1px solid black;
+  width: 360px;
+  height: 140px;
   margin: 20px;
-  padding-bottom: 10px;
   border-radius: 20px;
   position: relative;
 }
 .contenubloc2{
   display: flex;
   justify-content: start;
-  text-align: center;
+  align-items: center;
   padding: 5px 5px;
 }
 .contenubloc2 img{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   width: 180px;
+  height: 130px;
+  padding: 0;
   
 }
 .description2{
@@ -280,10 +279,30 @@ img {
   flex-wrap: wrap;
   align-items: center;
   position: absolute;
-  right: 20px;
+  right: 45px;
   top: 5px;
-  padding: 5px 5px 0px 0px;
+  left: 150px;
+  padding: 5px 5px 0px 15px;
   background: #fff;
-  width: 150px;
-  height: 140px;
+  width: 160px;
+  height: 130px;
 }
+.description2 i{
+  padding-bottom: 20px;
+  color: #0065fc;
+  font-size: 15px;
+}
+.description2 p{
+  padding-bottom: 10px;
+  margin-top: 8px;
+}
+.description2 a{
+  text-decoration: none;
+  color: black;
+}
+.description2 .euro{
+  font-weight: bold;
+}
+/**********FIN SECTION2**********/
+
+/**********DEBUT SECTION3**********/
