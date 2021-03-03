@@ -237,10 +237,10 @@ section {
   justify-content: center;
   background-color: #F2F2F2;
   border-radius: 35px;
-  min-width: 500px;
-  width: 30%;
+  min-width: 450px;
+  
   height: 600px;
-  margin: 50px 0 0 20px;
+  margin: 50px 0 0 0px;
   padding: 60px 0;
   position: relative;
   
