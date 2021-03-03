@@ -316,8 +316,8 @@ section {
 }
 .blocsection3 div{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .blocsection3 h1{
   grid-column: 1 / 5;
@@ -332,31 +332,110 @@ section {
   height: 350px;
   object-fit: cover;
   padding-bottom: 50px;
-  border: 1px solid black;
+  borde: 1px solid black;
+  box-shadow: 
 }
 #vieuxport p{
   position: absolute;
-  bottom: 20px;
-  left: 50px;
+  bottom: 25px;
+  left: 10px;
+  font-weight: bold;
 }
 #pomegues{
   grid-column: 2 / 3;
   grid-row: 2 / 4;
+  margin-bottom: 35px;
+  position: relative;
 }
-#pomegues img
+#pomegues img{
+  height: 160px;
+  width: 280px;
+  object-fit: cover;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px 0.1;
+  border: 1px solid black;
+}
+#pomegues p{
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  font-weight: bold;
+}
 #frioul{
   grid-column: 2 / 3;
-  grid-row: 4 / 5;
+  grid-row: 3 / 5;
+  margin-top: 100px;
+  position: relative;
+}
+#frioul img{
+  height: 100px;
+  width: 280px;
+  object-fit: cover;
+  border: 1px solid black;
+  padding-bottom: 50px;
+}
+#frioul p{
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  font-weight: bold;
 }
 #calanques{
   grid-column: 3 / 4;
   grid-row: 2 / 5;
+  position: relative;
+}
+#calanques img{
+  height: 350px;
+  width: 280px;
+  object-fit: cover;
+  border: 1px black solid;
+  padding-bottom: 50px;
+}
+#calanques p{
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  font-weight: bold;
 }
 #dame{
   grid-column: 4 / 5;
   grid-row: 2 / 4;
+  margin-bottom: 70px;
+  position: relative;
+}
+#dame img{
+  height: 130px;
+  width: 280px;
+  object-fit: cover;
+  border: 1px solid black;
+  padding-bottom: 50px;
+}
+#dame p{
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  font-weight: bold;
 }
 #longchamp{
   grid-column: 4 / 5;
   grid-row: 3 / 5;
+  margin-top: 70px;
+  position: relative;
+}
+#longchamp img{
+  height: 130px;
+  width: 280px;
+  object-fit: cover;
+  border: 1px solid black;
+  padding-bottom: 50px;
+}
+#longchamp p{
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  font-weight: bold;
+}
+.blocsection3 a{
+  color: black
 }
