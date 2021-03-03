@@ -11,9 +11,10 @@
 }
 body {
   font-family: Raleway;
+  margin: 0;
 }
 #blocpage{
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding-top: 1%;
 }
@@ -40,7 +41,7 @@ nav ul{
 }
 .barrebleue1{
   border-top: 2px solid #0065fc;
-  padding: 41px 20px 0 30px;
+  padding: 33px 20px 0 30px;
   color: #0065fc;
 }
 .barrebleue2{
@@ -57,10 +58,10 @@ header h1{
   font-weight: bold;
 }
 header p{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #rechercher{
-  margin-left: 45px;
+  margin-left: px;
   
 }
 #isearch{
@@ -109,8 +110,7 @@ header p{
   background-color: #fff;
 }
 .filtres p{
-    margin-left: 45px;
-    font-weight: bold;
+  font-weight: bold;
 }
 .filtres i {
   color: #0065fc;
@@ -128,13 +128,12 @@ header p{
 
 .filtres {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   min-width: 1250px;
 }
 #info {
   font-weight: normal;
-  margin-left: 45px;
 }
 #info i {
   margin-right: 15px;
@@ -163,7 +162,7 @@ section {
   height: 600px;
   background-color: #F2F2F2;
   border-radius: 35px;
-  margin: 50px 45px 0 50px;
+  margin: 50px 45px 0 0px;
   padding: 60px 0;
   position: relative;
 }
@@ -238,9 +237,10 @@ section {
   justify-content: center;
   background-color: #F2F2F2;
   border-radius: 35px;
+  min-width: 500px;
   width: 30%;
   height: 600px;
-  margin: 50px 0 0 45px;
+  margin: 50px 0 0 20px;
   padding: 60px 0;
   position: relative;
   
@@ -317,8 +317,7 @@ section {
   display: grid;
   grid-template-rows: 100px 150px 150px 150px;
   grid-template-columns: 360px 360px 360px 360px;
-  margin-bottom: 200px;
-  margin-left: 60px;
+  margin-bottom: 100px;
 }
 .blocsection3 div{
   display: flex;
@@ -449,4 +448,32 @@ section {
 }
 .blocsection3 a{
   color: black
+}
+/**********FIN SECTION3**********/
+
+/**********DEBUT FOOTER**********/
+
+footer{
+  display: flex;
+  background-color: #F2F2F2;
+  height: 200px;
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+}
+footer li{
+  padding-bottom: 10px;
+}
+footer h1{
+  font-size: 18px;
+}
+footer a{
+  color: black;
+}
+.footerbloc1{
+  margin: 20px 0 0 230px;
+}
+.footerbloc2{
+  margin: 20px 0 0 300px;
 }
