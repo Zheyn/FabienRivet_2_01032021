@@ -166,6 +166,7 @@ section {
 }
 .blocsection1 {
   background-color: #fff;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
   width: 240px;
   height: 200px;
   margin: 20px;
@@ -253,7 +254,7 @@ section {
   height: 140px;
   margin: 20px;
   border-radius: 20px;
-  box-shadow: ;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
   position: relative;
 }
 .contenubloc2{
@@ -303,16 +304,12 @@ section {
 
 /**********DEBUT SECTION3**********/
 
-#section3 img{
-  width: 250px;
-  margin-bottom: px;
-}
-
 .blocsection3{
   display: grid;
   grid-template-rows: 100px 150px 150px 150px;
   grid-template-columns: 360px 360px 360px 360px;
   margin-bottom: 200px;
+  margin-left: 60px;
 }
 .blocsection3 div{
   display: flex;
@@ -321,6 +318,7 @@ section {
 }
 .blocsection3 h1{
   grid-column: 1 / 5;
+  margin-top: 70px;
 }
 #vieuxport{
   grid-column: 1 / 2;
@@ -332,8 +330,8 @@ section {
   height: 350px;
   object-fit: cover;
   padding-bottom: 50px;
-  borde: 1px solid black;
-  box-shadow: 
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 15px; 
 }
 #vieuxport p{
   position: absolute;
@@ -352,8 +350,8 @@ section {
   width: 280px;
   object-fit: cover;
   padding-bottom: 50px;
-  box-shadow: 5px 5px 0.1;
-  border: 1px solid black;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 15px;
 }
 #pomegues p{
   position: absolute;
@@ -371,7 +369,8 @@ section {
   height: 100px;
   width: 280px;
   object-fit: cover;
-  border: 1px solid black;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 15px;
   padding-bottom: 50px;
 }
 #frioul p{
@@ -389,7 +388,8 @@ section {
   height: 350px;
   width: 280px;
   object-fit: cover;
-  border: 1px black solid;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 15px;
   padding-bottom: 50px;
 }
 #calanques p{
@@ -408,7 +408,8 @@ section {
   height: 130px;
   width: 280px;
   object-fit: cover;
-  border: 1px solid black;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 15px;
   padding-bottom: 50px;
 }
 #dame p{
@@ -427,7 +428,8 @@ section {
   height: 130px;
   width: 280px;
   object-fit: cover;
-  border: 1px solid black;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 15px;
   padding-bottom: 50px;
 }
 #longchamp p{
