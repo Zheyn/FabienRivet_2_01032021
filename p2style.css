@@ -477,3 +477,20 @@ footer a{
 .footerbloc2{
   margin: 20px 0 0 300px;
 }
+figure img{
+  borde: 1px solid red;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+figure{
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+figcaption{
+  border: 1px solid blue;
+  
+}
