@@ -267,7 +267,7 @@ figure a{
 }
 .figsec2 img{
   width: 8em;
-  height: 130px;
+  height: 97%;
   border-radius: 20px 0 0 20px;
 }
 .figsec2 p{
@@ -455,3 +455,18 @@ button i{
   width: 20px;
   height: 20px;
 }*/
+.actixl{
+  width: 280px;
+}
+.actixl img{
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+  
+}
+.actixl p{
+  padding-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
