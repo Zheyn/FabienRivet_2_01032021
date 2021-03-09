@@ -11,12 +11,12 @@
 }
 body {
   font-family: Raleway;
-  margin: 0;
+  margin: auto;
+  max-width: 2050px
 }
 #blocpage{
   width: 70%;
   margin: auto;
-  padding-top: 1%;
 }
 li{
   list-style: none;
@@ -40,8 +40,12 @@ nav ul{
   display: flex;
 }
 .barrebleue1{
+  color: #0065fc;
+}
+.barrebleue1:hover{
   border-top: 2px solid #0065fc;
-  padding: 33px 20px 0 30px;
+  padding-top: 13%;
+  padding-left: 5%;
   color: #0065fc;
 }
 .barrebleue2{
@@ -176,6 +180,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 2050px;
 }
 #section1 {
   width: 65%;
@@ -263,12 +268,17 @@ figure a{
 }
 .figsec2{
   display: flex;
-  width: 20em;
+  width: 90%;
+  height: auto;
+  padding: 5px 0 5px 5px;
+  margin: 0;
 }
 .figsec2 img{
-  width: 8em;
-  height: 97%;
+  width: 8rem;
+  height: 100%;
   border-radius: 20px 0 0 20px;
+  
+  object-fit: cover;
 }
 .figsec2 p{
   line-height: 20px;
@@ -284,10 +294,11 @@ figure a{
 .blocsection3{
   display: grid;
   justify-content: space-between;
-  
-  grid-template-rows: 80px repeat(2, 220px);
+  align-items: flex-start;
+  grid-template-rows: 15% repeat(2, 30%);
   grid-template-columns: repeat(4, 22%);
   margin-bottom: 100px;
+  row-gap: 20px;
 }
 .blocsection3 h1{
   grid-column: 1 / 5;
@@ -317,128 +328,65 @@ figure a{
   grid-column: 4 / 5;
   grid-row: 3 / 4;
 }
-/*}
-#vieuxport{
-  grid-column: 1 / 2;
-  grid-row: 2 / 5;
-  position: relative;
+.actixl{
+  width: 100%;
+  height: 100%;
+  
 }
-#vieuxport img{
-  width: 280px;
-  height: 350px;
+.actixl img{
+  width: 100%;
+  height: 90%;
   object-fit: cover;
-  padding-bottom: 50px;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
-  border-radius: 15px; 
 }
-#vieuxport p{
-  position: absolute;
-  bottom: 25px;
-  left: 10px;
+.actixl p{
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
-#pomegues{
-  grid-column: 2 / 3;
-  grid-row: 2 / 4;
-  margin-bottom: 35px;
-  position: relative;
+.actiml{
+  width: 100%;
+  height: 100%;
 }
-#pomegues img{
-  height: 160px;
-  width: 280px;
+.actiml img{
+  width: 100%;
+  height: 80%;
   object-fit: cover;
-  padding-bottom: 50px;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
-  border-radius: 15px;
 }
-#pomegues p{
-  position: absolute;
-  bottom: 25px;
-  left: 10px;
+.actiml p{
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
-#frioul{
-  grid-column: 2 / 3;
-  grid-row: 3 / 5;
-  margin-top: 100px;
-  position: relative;
+.actim{
+  width: 100%;
+  height: 100%;
+ 
 }
-#frioul img{
-  height: 100px;
-  width: 280px;
+.actim img{
+  width: 100%;
+  height: 80%;
   object-fit: cover;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
-  border-radius: 15px;
-  padding-bottom: 50px;
 }
-#frioul p{
-  position: absolute;
-  bottom: 25px;
-  left: 10px;
+.actim p{
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
-#calanques{
-  grid-column: 3 / 4;
-  grid-row: 2 / 5;
-  position: relative;
+.actis{
+  width: 100%;
+  height: 100%;
 }
-#calanques img{
-  height: 350px;
-  width: 280px;
+.actis img{
+  width: 100%;
+  height: 80%;
   object-fit: cover;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
-  border-radius: 15px;
-  padding-bottom: 50px;
 }
-#calanques p{
-  position: absolute;
-  bottom: 25px;
-  left: 10px;
+.actis p{
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
-#dame{
-  grid-column: 4 / 5;
-  grid-row: 2 / 4;
-  margin-bottom: 70px;
-  position: relative;
-}
-#dame img{
-  height: 130px;
-  width: 280px;
-  object-fit: cover;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
-  border-radius: 15px;
-  padding-bottom: 50px;
-}
-#dame p{
-  position: absolute;
-  bottom: 25px;
-  left: 10px;
-  font-weight: bold;
-}
-#longchamp{
-  grid-column: 4 / 5;
-  grid-row: 3 / 5;
-  margin-top: 70px;
-  position: relative;
-}
-#longchamp img{
-  height: 130px;
-  width: 280px;
-  object-fit: cover;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
-  border-radius: 15px;
-  padding-bottom: 50px;
-}
-#longchamp p{
-  position: absolute;
-  bottom: 25px;
-  left: 10px;
-  font-weight: bold;
-}
-.blocsection3 a{
-  color: black
-}*/
+
 /**********FIN SECTION3**********/
 
 /**********DEBUT FOOTER**********/
@@ -447,6 +395,7 @@ footer{
   display: flex;
   background-color: #F2F2F2;
   height: 200px;
+  width: 100%;
 }
 footer ul{
   margin: 0;
@@ -462,10 +411,10 @@ footer a{
   color: black;
 }
 .footerbloc1{
-  margin: 20px 0 0 230px;
+  margin: 20px 0 0 0x;
 }
 .footerbloc2{
-  margin: 20px 0 0 300px;
+  margin: 0 0 0 20%;
 }
 
 /*button{
@@ -480,49 +429,3 @@ button i{
   width: 20px;
   height: 20px;
 }*/
-.actixl{
-  width: 280px;
-  height: 400px;
-}
-.actixl img{
-  width: 280px;
-  height: 350px;
-  object-fit: cover;
-  
-}
-.actixl p{
-  padding-bottom: 20px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-}
-.actim{
-  width: 280px;
-  height: 200px;
-}
-.actim img{
-  width: 280px;
-  height: 140px;
-  object-fit: cover;
-}
-.actim p{
-  padding-bottom: 20px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-}
-.actis{
-  width: 280px;
-  height: 150px;
-}
-.actis img{
-  width: 280px;
-  height: 90px;
-  object-fit: cover;
-}
-.actis p{
-  padding-bottom: 20px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-}
