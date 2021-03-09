@@ -154,9 +154,9 @@ input:focus{
 }
 .filtres {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 30px;
   margin-bottom: 20px;
-  min-width: 1250px;
 }
 #info {
   font-weight: normal;
@@ -178,15 +178,15 @@ input:focus{
 /**********DEBUT SECTION 1**********/
 section {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  max-width: 2050px;
+  flex-wrap: wrap;
+  max-width: 2050px; 
 }
 #section1 {
   width: 65%;
-  height: 550px;
+  height: auto;
   background-color: #F2F2F2;
-  padding: 30px 0 50px 0;
+  padding: 30px 0 70px 0;
   border-radius: 20px;
 }
 #section1 h1{
@@ -197,20 +197,21 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
-  height: 470px;
-  width: auto;
+  height: 90%;
+  width: 100%;
 }
-figure img{
+#positionfig figure img{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 14em;
+  width: 100%;
   height: 100px;
   object-fit: cover;
 }
-figure{
+#positionfig figure{
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
   border-radius: 25px;
-  width: 14em;
+  width: 28%;
+  height: 190px;
   padding: 5px 5px 0 5px;
   margin: 0 0 10px 0;
 }
@@ -219,7 +220,7 @@ figcaption{
   border-bottom-left-radius: 25px;
   padding-left: 8px;
 }
-figcaption p{
+#positionfig figcaption p{
   line-height: 4px;
 }
 figcaption i{
@@ -232,7 +233,7 @@ figure a{
   font-weight: bold;
 }
 #afficherplus{
-  padding: 20px 0 0 30px;
+  padding: 0 0 0 30px;
 }
 #afficherplus a{
   font-weight: bold;
@@ -246,7 +247,7 @@ figure a{
 #section2 {
   background-color: #F2F2F2;
   border-radius: 20px;
-  height: 630px;
+  height: auto;
   width: 30%;
 }
 #popicon{
@@ -268,8 +269,10 @@ figure a{
 }
 .figsec2{
   display: flex;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 25px;
   width: 90%;
-  height: auto;
+  height: 26%;
   padding: 5px 0 5px 5px;
   margin: 0;
 }
@@ -290,6 +293,7 @@ figure a{
 
 #section3{
   
+  
 }
 .blocsection3{
   display: grid;
@@ -297,7 +301,6 @@ figure a{
   align-items: flex-start;
   grid-template-rows: 15% repeat(2, 30%);
   grid-template-columns: repeat(4, 22%);
-  margin-bottom: 100px;
   row-gap: 20px;
 }
 .blocsection3 h1{
@@ -327,6 +330,15 @@ figure a{
 #longchamp{
   grid-column: 4 / 5;
   grid-row: 3 / 4;
+}
+.blocsection3 img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.blocsection3 figure{
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 25px;
+  margin: 0;
 }
 .actixl{
   width: 100%;
@@ -417,15 +429,34 @@ footer a{
   margin: 0 0 0 20%;
 }
 
-/*button{
-  border: 1px solid black;
-  font-size: 17px;
-  border-radius: 25px;
-  padding: 0;
+@media screen and (max-width: 1024px){
+  #blocpage{
+    width: 95%;
+  }
+  #positionfig2 figcaption p{
+    margin: 0;
+  }
+  #positionfig2 i:nth-child(1){
+    padding-top: 20px;
+  }
+  .figsec2{
+    width: 90%;
+  }
+  #section2{
+    width: 33%;
+  }
+  #section2 figcaption{
+    padding: 2px 2px 0 2px;
+  }
+  #positionfig figure p{
+    font-size: 0.80em;
+    line-height: 10px;
+  }
+  #section2 figure p{
+    font-size: 0.80em;
+  }
+  #section3 figure p{
+    font-size: 0.80em;
+    padding-left: 5px;
+  }
 }
-button i{
-  border: 1px solid black;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-}*/
