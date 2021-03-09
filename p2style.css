@@ -429,7 +429,7 @@ footer a{
   margin: 0 0 0 20%;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1750px){
   #blocpage{
     width: 95%;
   }
