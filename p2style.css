@@ -278,21 +278,46 @@ figure a{
 
 /**********DEBUT SECTION3**********/
 
+#section3{
+  
+}
 .blocsection3{
   display: grid;
-  grid-template-rows: 100px 150px 150px 150px;
-  grid-template-columns: 360px 360px 360px 360px;
+  justify-content: space-between;
+  
+  grid-template-rows: 80px repeat(2, 220px);
+  grid-template-columns: repeat(4, 22%);
   margin-bottom: 100px;
-}
-.blocsection3 div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .blocsection3 h1{
   grid-column: 1 / 5;
-  margin-top: 70px;
+  grid-row: 1 / 2;
 }
+#vieuxport{
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+#fort{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+#frioul{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+#calanques{
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+#dame{
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+#longchamp{
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+/*}
 #vieuxport{
   grid-column: 1 / 2;
   grid-row: 2 / 5;
@@ -413,7 +438,7 @@ figure a{
 }
 .blocsection3 a{
   color: black
-}
+}*/
 /**********FIN SECTION3**********/
 
 /**********DEBUT FOOTER**********/
@@ -457,6 +482,7 @@ button i{
 }*/
 .actixl{
   width: 280px;
+  height: 400px;
 }
 .actixl img{
   width: 280px;
@@ -465,6 +491,36 @@ button i{
   
 }
 .actixl p{
+  padding-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.actim{
+  width: 280px;
+  height: 200px;
+}
+.actim img{
+  width: 280px;
+  height: 140px;
+  object-fit: cover;
+}
+.actim p{
+  padding-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.actis{
+  width: 280px;
+  height: 150px;
+}
+.actis img{
+  width: 280px;
+  height: 90px;
+  object-fit: cover;
+}
+.actis p{
   padding-bottom: 20px;
   font-weight: bold;
   display: flex;
