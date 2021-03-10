@@ -32,20 +32,23 @@ header img{
   height: 4em;
 }
 .logonav{
-  display: flex;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto auto;
+  /*display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 40px;*/
 }
-nav ul{
-  display: flex;
+nav{
+  grid-column: 3 / 4;
 }
 .barrebleue1{
   color: #0065fc;
 }
 .barrebleue1:hover{
   border-top: 2px solid #0065fc;
-  padding-top: 13%;
-  padding-left: 5%;
+  padding-top: 9%;
+  font-size: 98%;
   color: #0065fc;
 }
 .barrebleue2{
@@ -53,7 +56,8 @@ padding-left: 50px;
 color: black
 }
 .barrebleue3{
-  padding-left: 70px;
+  grid-column: 4 / 5;
+  padding-left: 50px;
   color: #0065fc;
   font-weight: bold;
 }
@@ -458,5 +462,82 @@ footer a{
   #section3 figure p{
     font-size: 0.80em;
     padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  section{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  #section1{
+    width: 90%;
+  }
+  #section2{
+    width: 90%;
+    order: -1;
+    margin-bottom: 5%;
+  }
+  #positionfig2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  #popicon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #section2 h1{
+    padding-left: 30px;
+  }
+  #popicon i{
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 990px){
+  .logonav{
+    grid-template-columns: ;
+    grid-template-rows: 1fr 1fr;
+  }
+  nav{
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+  }
+  .barrebleue3{
+    padding: 0;
+  }
+  .barrebleue2{
+    width: 50%;
+    text-align: center;
+    padding: 0;
+  }
+  .barrebleue1{
+    width: 50%;
+    text-align: center;
+  }
+  .filtres{
+    flex-direction: column;
+  }
+  .elem{
+    width: 100%;
+  }
+  #positionfig{
+    flex-direction: column;
+  }
+  #positionfig figure{
+    width: 100%;
+  }
+  #positionfig2{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
   }
 }
