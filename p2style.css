@@ -606,7 +606,16 @@ footer a{
     row-gap: 10px;
   }
   .filtres{
-    flex-direction: column;
+    align-content: space-around;
+    margin-top: 5px;
+  }
+  .boxfilter{
+    margin: 8px 0;
+  }
+  .filtres p{
+    align-self: flex-start;
+    width: 100%;
+    margin-bottom: 5px;
   }
   .elem{
     width: 90%;
