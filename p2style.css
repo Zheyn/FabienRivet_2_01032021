@@ -163,16 +163,20 @@ input:focus{
   margin-bottom: 20px;
 }
 #info {
-  font-weight: normal;
-  width: 50%;
+  display: flex;
+  align-items: center;
+  width: 100%;
   height: auto;
+  padding-bottom: 30px;
+}
+#info p{
+  margin: 0;
+  padding-left: 10px;
 }
 #info i {
-  margin-right: 15px;
-  margin-bottom: 5%;
   color: #0065fc;
-  border: 1px rgba(0, 0, 0, 0.219) solid;
-  border-radius: 50%;
+  border: 1px #F2F2F2 solid;
+  border-radius: 100px;
   height: 20px;
   width: 20px;
   text-align: center;
@@ -300,10 +304,6 @@ figure a{
 
 /**********DEBUT SECTION3**********/
 
-#section3{
-  
-  
-}
 .blocsection3{
   display: grid;
   justify-content: space-between;
@@ -543,7 +543,7 @@ footer a{
     width: 100vw;
   }
   #logo{
-    width: 25%;
+    width: 40%;
     height: auto;
     padding: 5% 0 0 5%;
   }
@@ -577,6 +577,9 @@ footer a{
   }
   .barrebleue2:focus{
     border-bottom: #0065fc 2px solid;
+  }
+  header h1{
+    font-size: 1.2em;
   }
   #mobilenot{
     display: none;
@@ -612,6 +615,7 @@ footer a{
   #positionfig figure{
     width: 90%;
     margin: auto;
+    margin-bottom: 10px;
   }
   #positionfig2{
     display: flex;
@@ -674,7 +678,17 @@ footer a{
     width: 90%;
     margin: auto;
   }
+  .blocsection3 figure{
+    height: 190px;
+  }
+  .blocsection3 img{
+    height: 80%;
+  }
   footer{
     flex-direction: column;
+    margin-top: 10%;
+  }
+  .footerbloc2{
+    margin: 0;
   }
 }
