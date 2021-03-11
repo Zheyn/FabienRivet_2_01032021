@@ -540,7 +540,7 @@ footer a{
 @media screen and (max-width: 990px){
 
   #blocpage{
-    width: 100vw;
+    width: 95vw;
   }
   #logo{
     width: 40%;
@@ -553,8 +553,14 @@ footer a{
     display: flex;
     justify-content: center;
   }
+  .filtres p{
+    margin-left: 25px;
+  }
+  .filtres a{
+    margin-left: 40px;
+  }
   .barrebleue3{
-    padding: 5% 0 0 0;
+    padding: 5% 5% 0 0;
   }
   .barrebleue2{
     width: 50%;
@@ -595,10 +601,6 @@ footer a{
     font-size: 19px;
     padding: 10px;
   }
-  section{
-    width: 100%;
-    margin: auto;
-  }
   .logonav{
     grid-template-rows: 1fr 1fr;
     row-gap: 10px;
@@ -608,6 +610,17 @@ footer a{
   }
   .elem{
     width: 90%;
+  }
+  section{
+    width: 100%;
+    margin: auto;
+  }
+  #section1{
+    background-color: #fff;
+  }
+  #section1 h1{
+    font-size: 18px;
+    padding-left: 15px;
   }
   #positionfig{
     flex-direction: column;
@@ -632,9 +645,18 @@ footer a{
   }
   #popicon{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 0;
+  }
+  #popicon h1{
+    font-size: 18px;
+    padding: 0 0 0 15px !important;
+  }
+  #popicon i{
+    padding-left: 80px;
+    font-size: 18px;
+    padding-right: 20px;
   }
   #section2{
     width: 100%;
@@ -664,19 +686,15 @@ footer a{
     height: 100px;
     object-fit: cover;
   }
-  #popicon{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #popicon i{
-    padding-left: 80px;
-  }
+ 
   .blocsection3{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: auto;
+  }
+  .blocsection3 h1{
+    font-size: 18px;
   }
   .blocsection3 figure{
     height: 190px;
