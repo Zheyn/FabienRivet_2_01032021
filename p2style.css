@@ -199,7 +199,7 @@ section {
   padding: 30px 0 70px 0;
   border-radius: 20px;
 }
-#section1 h1{
+#section1 h2{
   padding-left: 30px;
 }
 #positionfig{
@@ -269,7 +269,7 @@ figure a{
 #popicon i{
   font-size: 1.5em;
 }
-#popicon h1{
+#popicon h2{
   padding-left: 30px;
 }
 #positionfig2{
@@ -312,7 +312,7 @@ figure a{
   grid-template-columns: repeat(4, 22%);
   row-gap: 20px;
 }
-.blocsection3 h1{
+.blocsection3 h2{
   grid-column: 1 / 5;
   grid-row: 1 / 2;
   font-size: 24px;
@@ -627,7 +627,7 @@ footer a{
   #section1{
     background-color: #fff;
   }
-  #section1 h1{
+  #section1 h2{
     font-size: 18px;
     padding-left: 15px;
   }
@@ -658,7 +658,7 @@ footer a{
     align-items: center;
     padding: 0;
   }
-  #popicon h1{
+  #popicon h2{
     font-size: 18px;
     padding: 0 0 0 15px !important;
   }
@@ -702,7 +702,7 @@ footer a{
     width: 100%;
     margin: auto;
   }
-  .blocsection3 h1{
+  .blocsection3 h2{
     font-size: 18px;
   }
   .blocsection3 figure{
