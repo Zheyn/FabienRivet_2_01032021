@@ -441,6 +441,10 @@ footer a{
   margin: 0 0 0 20%;
 }
 
+/**********FIN FOOTER**********/
+
+/**********DEBUT MEDIA QUERIES 1750px**********/
+
 @media screen and (max-width: 1750px){
   #blocpage{
     width: 95%;
@@ -472,6 +476,10 @@ footer a{
     padding-left: 5px;
   }
 }
+
+/**********FIN MEDIA QUERIES 1750px**********/
+
+/**********DEBUT MEDIA QUERIES 1440px**********/
 
 @media screen and (max-width: 1440px){
   section{
@@ -541,6 +549,10 @@ footer a{
     margin: auto;
   }
 }
+
+/**********FIN MEDIA QUERIES 1440px**********/
+
+/**********DEBUT MEDIA QUERIES 990px**********/
 
 @media screen and (max-width: 990px){
 
@@ -730,3 +742,4 @@ footer a{
     margin: 0;
   }
 }
+/**********FIN MEDIA QUERIES 990px**********/
