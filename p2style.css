@@ -543,24 +543,28 @@ footer a{
     width: 95vw;
   }
   #logo{
-    width: 40%;
+    width: 7em;
     height: auto;
-    padding: 5% 0 0 5%;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+  .logonav{
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
   }
   nav{
     grid-column: 1 / 5;
     grid-row: 2 / 3;
     display: flex;
     justify-content: center;
+    font-size: 18px;
   }
   .filtres p{
     margin-left: 25px;
   }
   .filtres a{
     margin-left: 40px;
-  }
-  .barrebleue3{
-    padding: 5% 5% 0 0;
   }
   .barrebleue2{
     width: 50%;
@@ -584,6 +588,11 @@ footer a{
   .barrebleue2:focus{
     border-bottom: #0065fc 2px solid;
   }
+  .barrebleue3{
+    font-size: 17px;
+    padding-top: 20px;
+    padding-right: 15px;
+  }
   header h1{
     font-size: 1.2em;
   }
@@ -600,10 +609,6 @@ footer a{
   .elem:nth-child(3) i{
     font-size: 19px;
     padding: 10px;
-  }
-  .logonav{
-    grid-template-rows: 1fr 1fr;
-    row-gap: 10px;
   }
   .filtres{
     align-content: space-around;
