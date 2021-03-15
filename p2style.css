@@ -24,7 +24,12 @@ li{
 a{
   text-decoration: none;
 }
-
+.grey{
+  color: #dad6d6
+}
+.euro{
+  font-weight: bold;
+}
 /**********DEBUT HEADER**********/
 
 header img{
@@ -230,6 +235,7 @@ section {
   height: 190px;
   padding: 5px 5px 0 5px;
   margin: 0 0 10px 0;
+  background-color: #fff;
 }
 figcaption{
   border-bottom-right-radius: 25px;
