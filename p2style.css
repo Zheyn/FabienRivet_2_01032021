@@ -125,9 +125,10 @@ input:focus{
   background-color: #0065fc;
   border-radius: 0 15px 15px 0;
   border: none;
-  width: 100px;
+  width: 105px;
   height: 52px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 #iconsearch{
