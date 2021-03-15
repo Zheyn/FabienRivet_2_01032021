@@ -647,7 +647,7 @@ footer a{
   }
   .elem:nth-child(3){
     width: auto;
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
   }
   .elem:nth-child(3) i{
     font-size: 19px;
