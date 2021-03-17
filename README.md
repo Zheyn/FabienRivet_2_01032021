@@ -1,1 +1,2 @@
-Projet 2
+Projet 2 : Transformez une maquette en site web.
+
